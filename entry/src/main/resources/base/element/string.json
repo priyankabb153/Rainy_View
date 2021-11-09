@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Rainy View"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "moreability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "moreability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MoreAbility",
+      "value": "entry_MoreAbility"
+    }
+  ]
+}

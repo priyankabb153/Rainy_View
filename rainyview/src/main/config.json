@@ -1,0 +1,25 @@
+{
+  "app": {
+    "bundleName": "me.samlss.rainyview_demo",
+    "vendor": "samlss",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "me.samlss.view",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "rainyview",
+      "moduleType": "har"
+    }
+  }
+}

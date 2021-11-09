@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#17222B"
+    ohos:orientation="vertical">
+
+        <me.samlss.view.RainyView
+            ohos:id="$+id:rv"
+            ohos:height="300vp"
+            ohos:width="300vp"
+            ohos:center_in_parent="true"
+            />
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:rv"
+            ohos:orientation="horizontal"
+            ohos:center_in_parent="true"
+            >
+
+        <Button
+            ohos:background_element="$graphic:button_background"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Start"
+            ohos:clickable="true"
+            ohos:id="$+id:start_button"
+            ohos:text_size="20vp"
+            ohos:text_color="#FFFFFF"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            />
+
+        <Button
+            ohos:id="$+id:stop_button"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Stop"
+            ohos:text_size="20vp"
+            ohos:clickable="true"
+            ohos:left_margin="10vp"
+            ohos:text_color="#FFFFFF"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            ohos:background_element="$graphic:button_background"
+            />
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:next_button"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Next"
+            ohos:text_size="20vp"
+            ohos:clickable="true"
+            ohos:left_margin="10vp"
+            ohos:text_color="#FFFFFF"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            ohos:background_element="$graphic:button_background"
+            ohos:below="$id:rv"
+            ohos:top_margin="100vp"
+            ohos:horizontal_center="true"
+            />
+
+</DependentLayout>

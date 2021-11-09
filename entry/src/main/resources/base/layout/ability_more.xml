@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:custom="http://schemas.huawei.com/res/custom"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="#17222B">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="5vp"
+        ohos:alignment="horizontal_center"
+        ohos:orientation="horizontal">
+        <me.samlss.view.RainyView
+            ohos:id="$+id:fv1"
+            ohos:height="300vp"
+            ohos:width="150vp"
+            ohos:top_padding="15vp"
+            ohos:scale_mode="stretch"
+            ohos:top_margin="80vp"
+            ohos:center_in_parent="true"
+            />
+
+        <me.samlss.view.RainyView
+            ohos:id="$+id:fv2"
+            ohos:height="300vp"
+            ohos:width="150vp"
+            ohos:top_padding="15vp"
+            ohos:scale_mode="stretch"
+            ohos:top_margin="80vp"
+            ohos:center_in_parent="true"
+            custom:left_cloud_color="#B7AC8D"
+            custom:right_cloud_color="#9b8f84"
+            custom:raindrop_color="#9aa9bb"
+            custom:raindrop_creation_interval="10"
+            custom:raindrop_max_number="50"
+            custom:raindrop_max_length="50"
+            custom:raindrop_min_length="20"
+            custom:raindrop_min_speed="1"
+            custom:raindrop_max_speed="3"
+            custom:raindrop_size="15"
+            custom:raindrop_slope="-4"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="horizontal_center"
+        >
+        <Button
+            ohos:background_element="$graphic:button_background"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:next_start_button"
+            ohos:text="Start"
+            ohos:clickable="true"
+            ohos:text_size="20vp"
+            ohos:text_color="#FFFFFF"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+
+            />
+        <Button
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:next_stop_button"
+            ohos:text="Stop"
+            ohos:text_size="20vp"
+            ohos:left_margin="10vp"
+            ohos:clickable="true"
+            ohos:text_color="#FFFFFF"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="20vp"
+            ohos:bottom_padding="20vp"
+            ohos:background_element="$graphic:button_background"
+            />
+
+    </DirectionalLayout>
+</DirectionalLayout>
