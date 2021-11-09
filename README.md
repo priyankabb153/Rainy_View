@@ -8,6 +8,9 @@ Inspired by [samlss/RainyView](https://github.com/samlss/RainyView) - version 1.
 ## Feature
 This library provides an animation of rainy view feature.
 
+<img src="https://github.com/priyankabb153/RainyView/blob/master/screenshots/raniyview1.gif" width="256">
+<img src="https://github.com/priyankabb153/RainyView/blob/master/screenshots/raniyview2.gif" width="256">
+
 
 ## Dependency
 1. For using rainyview module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
