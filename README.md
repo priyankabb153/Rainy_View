@@ -8,9 +8,9 @@ Inspired by [samlss/RainyView](https://github.com/samlss/RainyView) - version 1.
 ## Feature
 This library provides an animation of rainy view feature.
 
-<img src="https://github.com/priyankabb153/RainyView/blob/master/screenshots/raniyview1.gif" width="256">
+<img src="https://github.com/priyankabb153/Rainy_View/blob/master/screenshots/raniyview1.gif" width="256">
 
-<img src="https://github.com/priyankabb153/RainyView/blob/master/screenshots/rainyview2.gif" width="356">
+<img src="https://github.com/priyankabb153/Rainy_View/blob/master/screenshots/rainyview2.gif" width="356">
 
 
 ## Dependency
